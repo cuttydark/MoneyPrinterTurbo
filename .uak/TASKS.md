@@ -3,6 +3,7 @@
 ## APP-001
 Title: Revisar estructura del proyecto
 State: PLANNED
+Priority: P0
 Paths: app/services/llm.py, app/services/video.py, app/services/voice.py, app/services/subtitle.py
 Verify: pytest test/services/test_llm.py test/services/test_video.py
 Depends on: none
