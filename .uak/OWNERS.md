@@ -5,17 +5,10 @@ An owner is not a prerequisite for everyone: consumers work on published contrac
 
 | Pattern | Owner task |
 |---|---|
-| pyproject.toml | HACK-001 |
-| uv.lock | HACK-001 |
-| package.json | HACK-001 |
-| package-lock.json | HACK-001 |
-| web/package.json | HACK-001 |
-| web/package-lock.json | HACK-001 |
-| app/main.py | HACK-001 |
-| web/src/App.tsx | HACK-001 |
-| app/schemas/ | HACK-002 |
-| web/DESIGN.md | HACK-002 |
-| .github/workflows/ | HACK-001 |
-| .uak/PROJECT.md | HACK-001 |
+| pyproject.toml | APP-002 |
+| uv.lock | APP-002 |
+| app/main.py | APP-001 |
+| .github/workflows/ | APP-001 |
+| .uak/PROJECT.md | APP-001 |
 
-Delete rows for technologies you don't use. `/uak-plan` creates HACK-001 (setup) and HACK-002 (contract).
+Delete rows for technologies you don't use. `/uak-plan` creates APP-001 (setup) and APP-002 (contract).
