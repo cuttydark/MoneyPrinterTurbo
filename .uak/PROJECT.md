@@ -33,11 +33,11 @@ CODEOWNERS: `<paths → people>` · On-call: `<person>` · Runbook: `docs/runboo
 ```text
 Mode: marathon
 Backlog-Proposed-Epoch: 0
-Backlog-Approved: no
+Backlog-Approved: yes
 Autonomy: yes
 Auto-Merge: no
 Review-Mode: gh
-Plan-Channel: main
+Plan-Channel: claims
 Freeze-Epoch: 0
 Lease-Seconds: 14400
 Review-Lease-Seconds: 86400
