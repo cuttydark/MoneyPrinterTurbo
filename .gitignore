@@ -45,3 +45,15 @@ htmlcov/
 
 # Claude Code 订阅令牌（docker compose 自动读取），禁止提交
 .env
+.env.*
+!.env.example
+.uak-env
+.claude/settings.local.json
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+node_modules/
+.next/
+dist/
+.uak-shots/
